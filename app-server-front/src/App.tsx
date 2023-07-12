@@ -9,6 +9,7 @@ function App() {
   const [topics, setTopics] = useState<Topic[]>([])
 
   useEffect(()=>{
+    // TODO: ここでAPIを叩いてtopicsを更新する
     setTopics([
       {
         id: 1,
